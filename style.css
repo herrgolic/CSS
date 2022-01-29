@@ -1,0 +1,32 @@
+
+    body{
+        background: rgb(126, 190, 126);
+    }
+    a[href*="google"] {
+        color: green;
+    }
+
+    a[href$=".eu/"] {
+        color: red;
+    }
+
+    #first-div>p::after {
+        content: " - NEW";
+        color: #ffff00;
+        font-weight: bold;
+    }
+
+    #second-div p:nth-of-type(odd) {
+        color: red;
+        font-style: normal;
+        cursor: auto;
+    }
+
+    #second-div p:nth-of-type(even) {
+        color: blue;
+    }
+
+    p:last-child:hover {
+        font-style: italic;
+        cursor: pointer;
+    }
